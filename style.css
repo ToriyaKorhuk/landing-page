@@ -88,7 +88,7 @@
     height: 800px;
     background-color:#f8fafa;
 }
-.container2 .text_container2, .container3 .text_container2,.container4 .text_container2 {
+.container2 .text_container2, .container3 .text_container2,.container4 .text_container2, .container5 .text_container2 {
     text-align: center;
     font-size: 40px;
     color: black;
@@ -97,7 +97,7 @@
    margin-bottom: 1px;
    
 }
-.container2 .text_container2_2, .container3 .text_container2_2, .container4 .text_container2_2{
+.container2 .text_container2_2, .container3 .text_container2_2, .container4 .text_container2_2, .container5 .text_container2_2{
     font-family: 'Montserrat';
     color:#5e5f5f;
     text-transform: uppercase;
@@ -160,34 +160,36 @@
     border-bottom: 1px solid #5e5f5f;
 
 }
-.container3 .grid_block img:hover,.container .grid_block img:hover{
+.container3 .grid_block img:hover,.container4 .grid_block img:hover{
     opacity: 0.6;
 }
 .container3 .grid_block, .container4 .grid_block{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
+    
 }
 .container3 .grid_block img, .container4 .grid_block img{
     position: relative;
-	max-width: 98%;
+	max-width: 95%;
 	object-fit: cover;
-	opacity: 1;
 	height: 100%;
+    margin-top: 5%;
 }
 .container4 .item1:hover .read,.container4 .item2:hover .read, .container4 .item3:hover .read, .container4 .item4:hover .read,.container4 .item5:hover .read, .container4 .item6:hover .read{
     display: block;
     position: absolute;
     z-index: 199;
-    width: 120px;
-    height: 50px;
+    width: 180px;
+    height: 90px;
     font-family: 'Questrial';
     font-size: 16px;
     color:#5e5f5f;
     text-transform: uppercase;
     border-bottom: 1px solid #5e5f5f;
     border-right: 1px solid #5e5f5f;
-    background: #b1f1ed;
+    background: #6bf2e7;
+    margin-top: -100px;
 }
 .text_grid a{
    color: #5e5f5f;
@@ -197,8 +199,164 @@
 
 .container5{
     background-color: #f9fbfb;
-    height: 900px;
+    height: 600px;
 }
+
+
+.d-block .w-100{
+    width: 210px;
+    height: 300px;
+}
+.otz{
+    position: absolute;
+    float: right;
+    background-color: #eaebed;
+    margin-bottom: 100px;
+    height: 300px;
+    width: 500px;
+    margin-left: 550px;
+     margin-right: 400px;
+     margin-top: 150px;
+     box-shadow: 12px 12px 2px 1px #6bf2e7;
+    }
+.otz span{
+        
+        width: 200px;
+        height: 100px;
+
+    }
+.carousel-inner{
+    display: flex;
+    flex-direction: row;
+
+}
+.star i{
+    
+    color: #6bf2e7;
+    margin-top: 10%;
+  
+
+}
+.carousel-inner img{
+    height: 300px!important;
+    width: 260px!important;
+    margin-left: 150px;
+    box-shadow: 12px 20px 2px 1px #6bf2e7;
+    margin-top: 10%;
+
+    
+}
+.carousel-item.active {
+    display: flex!important;
+    flex-direction: row;
+    width: 400px;
+
+
+}
+.carousel-indicators li{
+    background-color:#6bf2e7!important;
+    
+}
+.otz span{
+    font-size: 16px;
+    text-align: center;
+}
+.container6{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+}
+.cards{
+    background-image: url("./img/Фон.png");
+        position: absolute;
+        width: 100%;
+        height: 600px;
+        z-index: 235;
+        opacity: 0.7;
+      }
+      
+.cards-innerone{
+    position: relative;
+    display: flex;
+   flex-direction: row;
+   float: center;
+   margin-top: 15%;
+}
+.cards-innerone div{
+        position: relative;
+}
+.one{
+    width: 400px;
+    height: 300px;
+    background-color: #0d2c3f;
+    margin-left: 15%;
+    opacity: 0.6;
+}
+.blocks{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.blocks input{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    position: relative;
+    clear: both;
+    width: 100%;
+    border: none;
+    background-color:#0d2c3f ;
+    border-bottom: 1px solid white ;
+    float:center;
+}
+.blocks p, .two p{
+    position: relative;
+    float: left!important;
+    font-size: 12px;
+    font-family: 'Questrial';
+    color: white;
+    text-transform: uppercase;
+    
+}
+.two a{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+}
+.blocks p:hover{
+    opacity: 0.7;
+}
+.two{
+    width: 300px;
+    height: 300px;
+    background-color: #0d2c3f;
+    margin-left: 50px;
+opacity: 0.6;
+}
+.container1 .buttons {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.btn-three{
+    position: relative;
+    margin: 0 auto;
+    background-color:#6bf2e7 ;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    font-family: 'Questrial';
+    color:#505050;
+    border-radius: 100px;
+    height:40px ;
+}
+.btn-three:hover{
+    cursor: pointer;
+    background: radial-gradient( #6bf2e7 , transparent);
+    border: none;
+    
+}
+
 @media (max-width: 768px) {
       .right_text, .left_text{
       font-size: 20px;
